@@ -1,0 +1,2 @@
+# ratshell
+Experiments with Rust
