@@ -3,7 +3,7 @@ mod cmds;
 use std::io::{stdin, stdout, Write};
 
 fn input() -> String {   
-    print!("$ ");
+    print!("\x1b[0;92;49m->\x1b[0m ");
     stdout().flush().unwrap();
 
     let mut text: String = String::new();
