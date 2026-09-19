@@ -1,4 +1,5 @@
 mod cmds;
+mod utils;
 
 use std::io::{stdin, stdout, Write};
 use color_print::{cprintln, cprint};
