@@ -32,6 +32,7 @@ fn prompt() {
             "foo" => cmds::foobar::main(),
             "cowsay" => cmds::cowsay::main(args),
             "echo" => cmds::echo::main(args),
+            "sort" => cmds::sort::main(args),
             "exit" => break,
             _ => println!("Unknown command: {}", cmd),
         }
